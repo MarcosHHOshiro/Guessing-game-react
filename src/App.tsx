@@ -4,6 +4,7 @@ import styles from './app.module.css'
 import { Header } from "./components/Header"
 import { Tip } from './components/Tip'
 import { Letter } from './components/Letter'
+import { Input } from './components/Input'
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
         <h4>Palpite</h4>
 
         <div>
-          
+          <Input autoFocus maxLength={1} placeholder='?'/>
         </div>
       </main>
     </div>

@@ -24,4 +24,11 @@
 
     margin: 2.5rem 0;
   }
+
+  & .guess {
+    display: flex;
+    gap: .75rem;
+
+    margin-top: .75rem;
+  }
 }
